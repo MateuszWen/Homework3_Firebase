@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="task_title">task_title</string>
+    <string name="task_description">task_description</string>
+    <string name="add_task">add_task</string>
+    <string name="default_title">default_title</string>
+    <string name="default_description">default_description</string>
+    <string name="item_selected_msg">Selected</string>
+    <string name="hello_blank_fragment">Name and Surname</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="delete_question">Do you want to delete book?</string>
+    <string name="delete_dialog_tag">delete_dialog_tag</string>
+    <string name="long_click_msg">Deleting... </string>
+    <string name="retry_msg">Are you sure?</string>
+    <string name="delete_cancel_msg">Canceled</string>
+    <string name="phone_number">Phone number</string>
+    <string name="birthday">Birthday</string>
+    <string name="surname">Book title</string>
+    <string name="name">Author Name</string>
+    <string name="button_add">Add</string>
+    <string name="book_title_fragment">Book title</string>
+    <string name="author_name_fragment">Author name</string>
+    <string name="call_question">"Call "</string>
+    <string name="dialog_call_yes">Yes</string>
+    <string name="dialog_call_cancel">Cancel</string>
+
+    <string-array name="images">
+        <item>drawable 1</item>
+        <item>drawable 2</item>
+        <item>drawable 3</item>
+    </string-array>
+</resources>

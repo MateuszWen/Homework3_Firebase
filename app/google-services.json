@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358446087215",
+    "firebase_url": "https://books-dab28.firebaseio.com",
+    "project_id": "books-dab28",
+    "storage_bucket": "books-dab28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358446087215:android:b98cc4ea125f812b2f5ada",
+        "android_client_info": {
+          "package_name": "com.mw.homework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358446087215-nvotm5nl3qco0hpghl9gqmtgg73i9lic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhL4_DF5bCR7PR8XJmG20QSuFI2G0JSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358446087215-nvotm5nl3qco0hpghl9gqmtgg73i9lic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
