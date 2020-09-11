@@ -73,5 +73,5 @@ public class ModifyData extends AppCompatActivity {
     public static ModifyData newInstance(TaskListContent.Book book){
         return new ModifyData(book);
     }
-    
+
 }

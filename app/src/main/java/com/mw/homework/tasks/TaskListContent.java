@@ -8,6 +8,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 import com.mw.homework.MainActivity;
+import com.mw.homework.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -51,7 +52,6 @@ public class TaskListContent {
             String value = entry.getValue().authorName;
             Log.d("ITEM_MAP", key +" : "+value );
         }
-
     }
 
     public static void addItem(Book bookToAdd) {
@@ -83,8 +83,7 @@ public class TaskListContent {
         MainActivity.ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
+                // This method is called once with the initial value and again whenever data at this location is updated.
 
                 ITEMS.clear();
                 ITEM_MAP.clear();

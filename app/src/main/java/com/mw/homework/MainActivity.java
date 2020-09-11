@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Toast;
 
@@ -18,6 +19,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.mw.homework.tasks.MyTaskRecyclerViewAdapter;
 import com.mw.homework.tasks.TaskFragment;
 import com.mw.homework.tasks.TaskInfoActivity;
 import com.mw.homework.tasks.TaskInfoFragment;
@@ -47,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements TaskFragment.OnLi
         });
 
        ((TaskFragment) getSupportFragmentManager().findFragmentById(R.id.taskFragment)).notifyDataChange();
+
     }
 
 
@@ -166,7 +169,20 @@ public class MainActivity extends AppCompatActivity implements TaskFragment.OnLi
                 }
             }).show();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Handler delayedExecution = new Handler();
+        delayedExecution.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                ((TaskFragment) getSupportFragmentManager().findFragmentById(R.id.taskFragment)).notifyDataChange();
+            }
+        },1000);
 
     }
+
 
 }

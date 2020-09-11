@@ -35,7 +35,6 @@ public class TaskFragment extends Fragment { //TaskFragment reprezentuje pojedyn
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
